@@ -1,0 +1,85 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap");
+
+html,
+body {
+  background-color: #d8c6aa;
+  color: #333333;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  margin-top: 10vh;
+  padding: 1vh 0;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: #c0af93;
+  color: #fff;
+  font-family: "Lemonada", cursive;
+  z-index: 999;
+}
+
+p {
+  font-family: "Comfortaa", cursive;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.7rem;
+  font-weight: bold;
+  text-align: justify;
+}
+
+h2 {
+  flex-direction: start;
+  font-family: "Lemonada", cursive;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #333333 !important;
+}
+.nav-links {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+.footer {
+  height: 30vh;
+  background-color: #333;
+  width: 100%;
+  color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.chart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+span {
+  text-decoration: underline;
+  color: rgb(94, 65, 65);
+}
